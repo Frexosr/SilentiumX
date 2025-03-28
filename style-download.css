@@ -1,0 +1,112 @@
+:root {
+    --primary-red: #ff3333;
+    --primary-dark: #0C0C0C;
+    --text-color: #ffffff;
+    --card-bg: #242424;
+    --hover-red: #ff4444;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--primary-dark);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--primary-red);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .download-card {
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 20px rgba(255, 51, 51, 0.2);
+  }
+  
+  .icon {
+    color: var(--primary-red);
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    color: #888;
+    margin-bottom: 2rem;
+  }
+  
+  .download-button {
+    display: inline-block;
+    background-color: var(--primary-red);
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: var(--hover-red);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 51, 51, 0.3);
+  }
+  
+  .features {
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    padding: 2rem;
+  }
+  
+  .features h3 {
+    color: var(--primary-red);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .features ul {
+    list-style: none;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .features li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  .features li::before {
+    content: "•";
+    color: var(--primary-red);
+    position: absolute;
+    left: 0;
+  }

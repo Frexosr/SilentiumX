@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SilentiumX - La solution ultime pour commencer le White Hat</title>
-    <link rel="icon" type="image/x-icon" href=" https://share.creavite.co/67dff84b9c155399b421468c.png">
+    <link rel="icon" type="image/x-icon" href="https://share.creavite.co/67dff84b9c155399b421468c.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <meta property="og:title" content="SilentiumX">
-    <meta property="og:description" content="La solution ultime pour commencer le White Hat">
-    <meta property="og:image" content="https://share.creavite.co/67e7dc0271cd7c246f7c01c5.gif">
-    <meta property="og:url" content="https://silentiumx.xyz">
-    <meta property="og:type" content="website">
-    <meta name="theme-color" content="#FF1A1A">
-
     <style>
         body,
         h1,
@@ -33,7 +25,6 @@
         }
     </style>
 </head>
-
 <body>
     <div id="notification" class="notification"></div>
     <div id="overlay" class="overlay"></div>
@@ -49,7 +40,10 @@
     <header>
         <nav>
             <div class="logo">SilentiumX</div>
-            <ul>
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul id="nav-menu">
                 <li><a href="#features">Fonctionnalités</a></li>
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="#" id="feedback-btn">Feedback</a></li>
@@ -65,8 +59,7 @@
             <a href="download.html" class="cta-button">Obtenir Maintenant</a>
         </div>
         <div class="hero-image">
-            <img src=" https://media-hosting.imagekit.io//56d07abbab814313/Capture%20d%E2%80%99%C3%A9cran%202025-03-24%20124226.png?Expires=1837424557&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=WfLAckPt~6sHR89vATYUp-rleYOu5mJg6Uv1Ws5ufwMjfNU7n6dnRVvZrX2eZGVJ5wNRhC30dSfQVgAD6EzyyJys2NYURziY8qyiJx0ICsUQy5GJN3~oVo9UN9RFkGjXyFYbXB7u3J9iNlkgEzsDhEzklIizi5YWauvaYdyC25aNW7VAtjUrz1xdEVA5B6TGi2AA9UAPIR~2us8NFNO5llvtZrk3dcAtgoCwZhPmz8GZv5aumCRC-VgiljT4f~1gB6EPJFWgugff576xLXPNDcmrEbkN-P-II28xZ7qGJwS78Q9b1k83BW8e9144JP9Xo6yfRXrKs1isy51f9E9szA__"
-                alt="RedMultiTool Interface">
+            <img src="https://media-hosting.imagekit.io//56d07abbab814313/Capture%20d%E2%80%99%C3%A9cran%202025-03-24%20124226.png?Expires=1837424557&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=WfLAckPt~6sHR89vATYUp-rleYOu5mJg6Uv1Ws5ufwMjfNU7n6dnRVvZrX2eZGVJ5wNRhC30dSfQVgAD6EzyyJys2NYURziY8qyiJx0ICsUQy5GJN3~oVo9UN9RFkGjXyFYbXB7u3J9iNlkgEzsDhEzklIizi5YWauvaYdyC25aNW7VAtjUrz1xdEVA5B6TGi2AA9UAPIR~2us8NFNO5llvtZrk3dcAtgoCwZhPmz8GZv5aumCRC-VgiljT4f~1gB6EPJFWgugff576xLXPNDcmrEbkN-P-II28xZ7qGJwS78Q9b1k83BW8e9144JP9Xo6yfRXrKs1isy51f9E9szA__" alt="RedMultiTool Interface">
         </div>
     </section>
 
@@ -96,21 +89,15 @@
         <div class="faq-grid">
             <div class="faq-item">
                 <h3>Comment utiliser SilentiumX ?</h3>
-                <p>SilentiumX est un Tool Open-Source en Python. Installez Python depuis python.org, en cochant "ADD
-                    PYTHON TO PATH",
-                    puis redémarrez votre PC. Ouvrez ensuite le "Setup" pour utiliser le Tool.</p>
+                <p>SilentiumX est un Tool Open-Source en Python. Installez Python depuis python.org, en cochant "ADD PYTHON TO PATH", puis redémarrez votre PC. Ouvrez ensuite le "Setup" pour utiliser le Tool.</p>
             </div>
             <div class="faq-item">
                 <h3>Les mises à jour sont-elles avertie ?</h3>
-                <p>Oui, toutes les mises à jour sont averti d'une notification automatique. Nous nous engageons à
-                    maintenir et
-                    améliorer constamment l'outil pour vous offrir la meilleure expérience possible.</p>
+                <p>Oui, toutes les mises à jour sont averti d'une notification automatique. Nous nous engageons à maintenir et améliorer constamment l'outil pour vous offrir la meilleure expérience possible.</p>
             </div>
             <div class="faq-item">
                 <h3>Le logiciel est-il sécurisé ?</h3>
-                <p>Absolument ! Le tool est sécurisé il ne contient aucun malware. Les antivirus peuvent bloquer les
-                    fichiers mais
-                    il ne sagit de rien de dangereux.</p>
+                <p>Absolument ! Le tool est sécurisé il ne contient aucun malware. Les antivirus peuvent bloquer les fichiers mais il ne sagit de rien de dangereux.</p>
             </div>
         </div>
     </section>
@@ -119,7 +106,7 @@
         <div class="footer-content">
             <div class="footer-section">
                 <h4>SilentiumX</h4>
-                <p>La solution ultime pour commencer le White Hat.</p>
+                <p>La solution ultime pour tous vos besoins</p>
             </div>
             <div class="footer-section">
                 <h4>Liens Rapides</h4>
@@ -140,6 +127,19 @@
     </footer>
 
     <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        document.querySelectorAll('#nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+
         document.querySelectorAll('.faq-item').forEach(item => {
             item.addEventListener('click', () => {
                 item.classList.toggle('active');
@@ -178,7 +178,7 @@
         const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1353709069294239824/HT1fxeNFv2Mjx29_3fZovRFJ0MQH-hWw72LTCAHI57UnmErIud6on-jG1a6l4j9Vs__a';
 
         function showNotification(message) {
-            notification.textContent = message;
+            notification.innerHTML = `<i class="fas fa-check"></i> ${message}`;
             notification.classList.add('show');
             setTimeout(() => {
                 notification.classList.remove('show');
@@ -238,5 +238,4 @@
         });
     </script>
 </body>
-
 </html>

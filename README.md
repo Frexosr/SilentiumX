@@ -1,7 +1,7 @@
 
 <h1>SilentiumX Tool</h1>
 
-<blockquote><strong>Développé par <a href="https://silentiumx.xyz" target="_blank">Silentiumx.xyz</a> — La plateforme ultime pour apprendre la cybersécurité en toute sécurité.</strong></blockquote>
+<blockquote><strong>Développé par silentlinux.cyber & nuxi3__ — La plateforme ultime pour apprendre la cybersécurité en toute sécurité.</strong></blockquote>
 
 <hr>
 

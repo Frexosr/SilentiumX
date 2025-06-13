@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     let lastModified = null;
-    const ZIP_URL = '/SilentiumX-main.zip';
+    const ZIP_URL = '/SilentiumX-Tools-1.3.zip';
     const CHECK_INTERVAL = 5000; // Vérifier toutes les 5 secondes
   
     // Fonction pour vérifier la date de modification du fichier
